@@ -1,0 +1,18 @@
+.footer {
+  display: grid;
+  grid-template-columns: 100%;
+  
+  /* position: sticky; */
+  bottom: 0;
+
+  background-color: var(--bg);
+  color: var(--c-text-2);
+  font-weight: 500;
+}
+
+.footer-container {
+  text-align: center;
+  padding: 1rem;
+
+  border-top: 1px solid var(--c-text-3);
+}

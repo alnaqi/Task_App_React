@@ -1,0 +1,46 @@
+.App {
+  color: var(--c-text-1);
+}
+
+.dark {
+  --bg: #1e1e20;
+  --c-text-1: rgba(218, 216, 196, 0.92);
+  --c-text-2: rgba(218, 216, 196, 0.7);
+  --c-text-3: rgba(218, 216, 196, 0.33);
+  --btn-color: whitesmoke;
+  --bg-card: #252529;
+  --color-slice: rgba(237, 236, 225, 0.92);
+  --bg-input: var(--bg);
+  --bg-input-hover: #39393f;
+  --bg-message: var(--c-text-1);
+  --color-message: #252529;
+
+  --loading: #fff;
+
+  --color-green: green;
+
+  --red: red;
+}
+
+@media screen and (max-width: 900px) {
+  .interface {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .interface-info {
+    position: static !important;
+    width: auto;
+  }
+}
+@media screen and (max-width: 770px) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 625px) {
+  html {
+    font-size: 0.6rem;
+  }
+}

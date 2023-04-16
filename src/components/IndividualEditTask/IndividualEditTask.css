@@ -1,0 +1,80 @@
+.edit-task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin: 2rem 0;
+}
+
+.edit-task-title {
+  display: flex;
+  /* gap: 1.5rem; */
+  align-items: baseline;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.edit-task-title input {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+.edit-task-title .fa-pen-to-square {
+  font-size: 1.5rem;
+}
+
+
+/* || SLICE THIMGS */
+.slices {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.slice-detailes {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+.slice-detailes p {
+  font-size: 0.8rem;
+}
+
+.checkbox-inline {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.slice {
+  background-color: var(--bg-slice);
+  color: var(--color-slice);
+  font-size: 1.2rem;
+  width: 100%;
+  min-height: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.slice:hover {
+  border-left: 4px solid var(--c-text-1);
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: var(--bg-slice-hover);
+}
+
+.slice * {
+  margin: 0.8rem 1.2rem;
+}
+
+.slice i {
+  color: palevioletred;
+  cursor: pointer;
+}

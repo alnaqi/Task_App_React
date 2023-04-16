@@ -1,0 +1,13 @@
+.main {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: var(--bg);
+  
+  flex-grow: 1;
+}
+
+.main-container {
+  display: grid;
+  place-content: center;
+}
+

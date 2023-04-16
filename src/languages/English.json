@@ -1,0 +1,57 @@
+{
+  "signin": "Sign In",
+  "signup": "Sign Up",
+  "register": "Register",
+  "name": "Name",
+  "user": "User",
+  "home": "Home",
+  "profile": "Profile",
+  "langs": "Langauge",
+  "here": "here",
+  "Forget your password?": "Forget your password?",
+  "email": "Email",
+  "pass": "Password",
+  "submit": "Submit",
+  "write": "Write",
+  "reset": "Reset",
+  "add": "Add",
+  "all": "All",
+  "verify": "Verify",
+  "more": "more",
+  "send": "Send",
+  "tasks": "Tasks",
+  "task": "Task",
+  "completed": "Completed",
+  "delete": "Delete",
+  "not": "Not",
+  "new": "new",
+  "title": "Title",
+  "detailes": "Detailes",
+  "clear": "Clear",
+  "created": "Created",
+  "light": "Light",
+  "dark": "Dark",
+
+  "Error": "Error",
+  "invalid email": "invalid email",
+  "user not found": "user not found",
+  "wrong password": "wrong password",
+  "missing email": "missing email",
+  "missing password": "missing password",
+  "too many requests, please try again later.": "too many requests, please try again later.",
+  "Please check your email": "Please check your email",
+  "weak password": "weak password",
+  "email already in use": "email already in use",
+  "Email verify sent": "Email verify sent",
+
+
+
+  "message1": "Task added successfully",
+
+  "Stay organized with": "Stay organized with",
+  "a powerful task": "a powerful task",
+  "Get Ready to run your tasks by creating an account": "Get Ready to run your tasks by creating an account",
+  "Please check the span mails box in your Email when you do not receive the sent mail": "Please check the span mails box in your Email if you do not receive the sent mail"
+  
+
+}

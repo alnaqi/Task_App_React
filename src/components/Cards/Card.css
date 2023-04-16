@@ -1,0 +1,89 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+}
+.cards a {
+  color: var(--c-text-1);
+  text-decoration: none;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 25rem;
+  min-width: 12.5rem;
+  max-width: 18.75rem;
+  height: 12.5rem;
+
+  background-color: var(--bg-card);
+  padding: 20px;
+  margin: 0 1rem;
+  border-radius: 10px;
+  filter: drop-shadow(0 5px 10px 0 #ffffff);
+
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  transition: 0.6s ease-in;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  right: -15px;
+  background: /*#7952b3*/ #E05E3A;
+  height:220px;
+  width: 25px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
+}
+.card-completed::before {
+  background: /*#7952b3*/ #52b788;
+}
+.card-incompleted::before {
+  background: /*#7952b3*/ #bf4f2f;
+}
+.card:hover::before{
+  transition-delay:0.2s;
+  transform: scale(40);
+}
+
+.card:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card h4 {
+  position: absolute;
+}
+
+.card ul {
+  padding: 2.8rem 1.8rem;
+  list-style-type: circle;
+  text-align: start;
+}
+
+.card span {
+  position: absolute;
+  /* color: var(--c-text-2); */
+  font-size: 0.8rem;
+  bottom: 15px;
+  right: 20px;
+}
+
+
+.card-more {
+  list-style-type: none;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+}

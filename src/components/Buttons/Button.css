@@ -1,0 +1,128 @@
+/* || btn Styles */
+.btn {
+  color: var(--btn-color);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* primary */
+.primary {
+  background-color: #007bff;
+}
+.primary:hover {
+  background-color: #0672e5e0;
+}
+.primary:active {
+  background-color: #007bff;
+}
+.primary:disabled, .primary[disabled] {
+  background-color: #0672e5e0;
+  opacity: 0.65;
+  cursor:auto;
+}
+.primary:focus-visible {
+  background-color: #0672e5e0;
+  outline: 2px #05509fe0 solid;
+}
+
+/* white */
+.white {
+  border: var(--c-text-3) 1px solid;
+  background-color: var(--bg-input);
+  color: var(--c-text-2);
+}
+.white:hover {
+  color: var(--c-text-1);
+}
+.white:active {
+  background-color: var(--bg-input-hover); 
+}
+.white:disabled, .white[disabled] {
+  background-color: var(--bg-input);
+  color: var(--c-text-1);
+  opacity: 0.65;
+  cursor:auto;
+}
+.white:focus-visible {
+  background-color: var(--c-text-1);
+  outline: 2px var(--c-text-2) solid;
+}
+
+/* danger */
+.danger {
+  background-color: brown;
+}
+.danger:hover {
+  background-color: rgba(165, 42, 42, 0.889);
+}
+.danger:active {
+  background-color: rgba(165, 42, 42, 0.974);
+}
+.danger:disabled, .danger[disabled] {
+  background-color: rgba(165, 42, 42, 0.889);
+  opacity: 0.65;
+  cursor:auto;
+}
+.danger:focus-visible {
+  background-color: rgba(165, 42, 42, 0.889);
+  outline: 2px rgba(117, 30, 30, 0.889) solid;
+}
+
+/* secondry */
+.secondry {
+  background-color: #6d757c;
+}
+.secondry:hover {
+  background-color: #565d63;
+}
+.secondry:active {
+  background-color: #6d757c;
+}
+.secondry:disabled, .secondry[disabled] {
+  background-color: #565d63;
+  opacity: 0.65;
+  cursor:auto;
+}
+.secondry:focus-visible {
+  background-color: #6d757c;
+  outline: 2px #4b5055 solid;
+}
+
+/* process */
+.process {
+  background-color: var(--color-process);
+}
+.process:hover {
+  background-color: #0a978e;
+}
+.process:active {
+  background-color: #09A59A;
+}
+.process:disabled, .process[disabled] {
+  background-color: #0a978e;
+  opacity: 0.65;
+  cursor:auto;
+}
+.process:focus-visible {
+  background-color: #0a978e;
+  outline: 2px #076a64 solid;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

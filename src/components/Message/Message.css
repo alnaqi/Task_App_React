@@ -1,0 +1,24 @@
+.message {
+  background-color: var(--bg-message);
+  font-size: 18px;
+  color: var(--color-message);
+  padding: 8px 12px;
+  font-weight: normal;
+  border-radius: 5px;
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  transition: 0.7s;
+  z-index: 12;
+}
+
+.fa-circle-check {
+  color:var(--color-green);
+}
+
+.show-message {
+  transform: translateX(0);
+}
+.hide-message {
+  transform: translateX(350px);
+}

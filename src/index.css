@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* overflow: auto; */
+}
+
+:root {
+  --bg: #fff;
+  --c-text-1: rgba(60, 60, 67, .92);
+  --c-text-2: rgba(60, 60, 67, .7);
+  --c-text-3: rgba(60, 60, 67, .33);
+  --btn-color: #fff;
+  --bg-card: #f6f6f7;
+  --bg-slice: #51516f;
+  --bg-slice-hover: #51516fe0;
+  --color-slice: #fff;
+  --bg-input: var(--bg);
+  --bg-input-hover: #e3e3e5;
+  --bg-message: var(--c-text-1);
+  --color-message: #f6f6f7;
+
+  --loading: #1e1e20;
+
+  --color-green: rgb(12, 155, 12);
+
+  --color-process: #09A59A;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
+  color: var(--c-text-1);
+}
+
+input {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 6px 4px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: var(--bg-input);
+  color: var(--c-text-1);
+  border: none;
+  width: 100%;
+}
+
+input[type=submit] {
+  border: var(--c-text-3) 1px solid;
+}
+
+.loading-bar-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.loading-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type=checkbox] {
+  accent-color: var(--color-process);
+}
